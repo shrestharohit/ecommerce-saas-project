@@ -1,0 +1,30 @@
+.base {
+  background-color: #fdfdfd;
+  border: 1px;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.overflow-auto {
+  overflow: auto;
+}
+.pointer {
+  cursor: pointer;
+}
+html {
+  scroll-behavior: smooth;
+}
+.fill-height {
+  height: 100%;
+}
+.absolute {
+  position: absolute;
+}
+.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky !important;
+  top: 0;
+}
+.z-index-1000 {
+  z-index: 1000;
+}
